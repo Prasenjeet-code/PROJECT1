@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form </title>
+    <link rel="stylesheet" href="payment_form.css">
+</head>
+<body>
+    <div>
+    <form action="">
+        <h2>Enter your Details </h2>
+         <p> Name : <input type="text" name="Name" required> </p> <!-- this name="name is used to send the data to the server and without the name the data will not go to server  " -->
+        <fieldset> <!-- field set tag is used to give a respective field to a selective elements -->
+            <legend>Gender</legend> <!-- legend is to highlight the elements -->
+        <p>   : Male <input type="radio" name="Gender" id="gender" required> Female <input type="radio" name="Gender" id="gender" required></p>
+    </fieldset>
+    <p> Address : <textarea name="address" id="address" cols="80" rows="7"></textarea></p>
+    <p>Mobile Number : <input type="number" name="mobile number " id=" mobile number " required></p>
+    <p>Mail : <input type="email" name="email" id="email" required></p>
+    <p>Pincode : <input type="number" name="Pincode" id="Pincode"required></p>
+    <h2> Enter Payment Details </h2>
+    <p>Card Number : <input type="number" name="Card_number " id="Card_number"required></p>
+    <p>Card Type : 
+        <select name="Card_type" id="Card_type"required> <!-- here select tag is used to make a selection from the user and option tag is used to create a options in the select b0x-->
+        <option value="">--Select a Card type--</option>
+        <option value="Visa">Visa</option>
+        <option value="MasterCard">MasterCard</option>
+        <option value="Rupay">Rupay</option>
+    </select>
+    </p>
+    <p>Card Expiry Date <input type="date" name="Exp_date" id="Exp_date "required></p>
+    <p>CVV <input type="password" name="CVV" id="CVV"required></p>
+    <input type="submit" name="submit " value="Pay Now"><!-- at last password is used to hind the entered data in the box -->
+    </form>
+</div>
+</body>
+</html>

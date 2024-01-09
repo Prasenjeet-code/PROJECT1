@@ -1,0 +1,19 @@
+ul{
+    text-decoration: none;
+    text-transform: none;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 800px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    -ms-flex-item-align: auto;
+    color:black;
+    font-size: 25px;
+
+}

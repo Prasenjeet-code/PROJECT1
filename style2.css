@@ -1,15 +1,4 @@
-*{
-    color: white;
-    padding: 0px;
-    margin: 0px;
-}
-button{
-    background-color: #f08804;
-}
-#logo{
-    color: #f08804;
-    font-size: 25px;
-}
-a{
-    margin-right: 200px;
+ul{
+    text-decoration: none;
+    text-transform: none;
 }
